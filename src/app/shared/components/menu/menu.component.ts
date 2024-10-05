@@ -40,8 +40,9 @@ export class MenuComponent implements OnInit {
               icon: 'pi pi-cog',
               items: [
                 {
-                  label: 'Otro elemento',
-                icon: 'pi pi-cog'
+                  label: 'Custom pipes',
+                  icon: 'pi pi-cog',
+                  command: () => this.router.navigate(['/custom'])
                 }
               ]
             }
