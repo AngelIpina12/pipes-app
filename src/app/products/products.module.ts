@@ -7,6 +7,7 @@ import { NumbersPageComponent } from './pages/numbers-page/numbers-page.componen
 import { OrderComponent } from './pages/order/order.component';
 import { PrimeNgModule } from '../prime-ng/prime-ng.module';
 import { ProductsRoutingModule } from './products-routing.module';
+import { SortByPipe } from './pipes/sort-by.pipe';
 import { ToggleCasePipe } from './pipes/toggle-case.pipe';
 import { UncommonPageComponent } from './pages/uncommon-page/uncommon-page.component';
 
@@ -17,6 +18,7 @@ import { UncommonPageComponent } from './pages/uncommon-page/uncommon-page.compo
     CanFlyPipe,
     NumbersPageComponent,
     OrderComponent,
+    SortByPipe,
     ToggleCasePipe,
     UncommonPageComponent,
   ],
